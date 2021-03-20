@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="ab">
+        <Nume>Alin2</Nume>
+        <Grupa>900</Grupa>
+    </student>
+    <student ID="2">
+        <Nume>Eu</Nume>
+        <Grupa>160</Grupa>
+    </student>
     <student ID="101">
         <Nume>Student_1</Nume>
         <Grupa>189</Grupa>
+    </student>
+    <student ID="4">
+        <Nume>Ion</Nume>
+        <Grupa>227</Grupa>
+    </student>
+    <student ID="1111">
+        <Nume>tntntntntn</Nume>
+        <Grupa>600</Grupa>
+    </student>
+    <student ID="10">
+        <Nume>Lorena</Nume>
+        <Grupa>934</Grupa>
     </student>
 </Entitati>
