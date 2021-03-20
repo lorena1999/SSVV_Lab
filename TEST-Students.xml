@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStudents" tests="12">
+    <testcase name="testIdUnique" classname="TestStudents"/>
+    <testcase name="testIdNotUnique" classname="TestStudents"/>
+    <testcase name="testIdNotEmpty" classname="TestStudents"/>
+    <testcase name="testIdEmpty" classname="TestStudents"/>
+    <testcase name="testNameNotEmpty" classname="TestStudents"/>
+    <testcase name="testNameEmpty" classname="TestStudents"/>
+    <testcase name="testGroupMinValueMinus1" classname="TestStudents"/>
+    <testcase name="testGroupMinValue" classname="TestStudents"/>
+    <testcase name="testGroupMinValuePlus1" classname="TestStudents"/>
+    <testcase name="testGroupMaxValueMinus1" classname="TestStudents"/>
+    <testcase name="testGroupMaxValue" classname="TestStudents"/>
+    <testcase name="testGroupMaxValuePlus1" classname="TestStudents"/>
+</testsuite>
