@@ -8,9 +8,9 @@ public class Main {
 
     static void test(Service service)
     {
-        service.saveStudent("101", "Student_1", 189);
-        service.saveTema("202", "Assignment_1", 5,2);
-        service.saveNota("101", "202", 8.5, 2, "Good");
+        service.saveStudent("1", "fffs", 500);
+        //service.saveTema("202", "Assignment_1", 5,2);
+        //service.saveNota("101", "202", 8.5, 2, "Good");
     }
 
     public static void main(String[] args) {
