@@ -119,15 +119,15 @@ public class StudentTest {
     }
 
 
-    @AfterEach
-    public void tearDown() throws Exception
-    {
-        Path source = Paths.get("studenti_backup.xml");
-        Files.copy(source, source.resolveSibling("studenti.xml"), StandardCopyOption.REPLACE_EXISTING);
-
-        Files.delete(source.resolveSibling("studenti_backup.xml"));
-
-    }
+//    @AfterEach
+//    public void tearDown() throws Exception
+//    {
+//        Path source = Paths.get("studenti_backup.xml");
+//        Files.copy(source, source.resolveSibling("studenti.xml"), StandardCopyOption.REPLACE_EXISTING);
+//
+//        Files.delete(source.resolveSibling("studenti_backup.xml"));
+//
+//    }
 
 
 }
