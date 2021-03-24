@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StudentTest" time="0.709" tests="12" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab\target\test-classes;D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab\target\classes;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.0-M1\junit-jupiter-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LM\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LM\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0-M1\junit-jupiter-params-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\LM\.jdks\openjdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\LM\AppData\Local\Temp\surefire1125441802655574741\surefirebooter12390517193549660723.jar C:\Users\LM\AppData\Local\Temp\surefire1125441802655574741 2021-03-24T14-31-33_399-jvmRun1 surefire12219812175156876761tmp surefire_013036186766433828270tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab\target\test-classes;D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab\target\classes;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.0-M1\junit-jupiter-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LM\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LM\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0-M1\junit-jupiter-params-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\LM\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\LM\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\LM\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\LM\.jdks\openjdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\LM\AppData\Local\Temp\surefire1125441802655574741\surefirebooter12390517193549660723.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="LM"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\LM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LM\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="D:\META-INF\George\ubb\An3\Sem2\SSVV\Lab2\SSVV_Lab"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\LM\.jdks\openjdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Polyspace\R2020a\runtime\win64;C:\Program Files\Polyspace\R2020a\bin;C:\Program Files\Polyspace\R2020a\polyspace\bin;C:\Program Files\Git\cmd;D:\;C:\Users\LM\PycharmProjects;;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\Cloud Foundry;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Polyspace\R2020a\runtime\win64;C:\Program Files\Polyspace\R2020a\bin;C:\Program Files\Polyspace\R2020a\polyspace\bin;C:\Program Files\Git\cmd;D:\;C:\Users\LM\PycharmProjects;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.3.1\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\;C:\Python34\Scripts;C:\Python37\Scripts;C:\Users\LM\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\heroku\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testGroupMinValue" classname="StudentTest" time="0.308"/>
+  <testcase name="testGroupMaxValuePlus1" classname="StudentTest" time="0.081">
+    <failure message="If the group is higher than max value, the student should NOT be added ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: If the group is higher than max value, the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testGroupMaxValuePlus1(StudentTest.java:115)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testNameNotEmpty" classname="StudentTest" time="0.037"/>
+  <testcase name="testGroupMaxValue" classname="StudentTest" time="0.034"/>
+  <testcase name="testIdUnique" classname="StudentTest" time="0.027"/>
+  <testcase name="testGroupMinValuePlus1" classname="StudentTest" time="0.022"/>
+  <testcase name="testIdNotUnique" classname="StudentTest" time="0.019"/>
+  <testcase name="testGroupMaxValueMinus1" classname="StudentTest" time="0.038"/>
+  <testcase name="testIdEmpty" classname="StudentTest" time="0.029">
+    <failure message="If the id is empty the student should NOT be added ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: If the id is empty the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testIdEmpty(StudentTest.java:67)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testIdNotEmpty" classname="StudentTest" time="0.023"/>
+  <testcase name="testGroupMinValueMinus1" classname="StudentTest" time="0.029">
+    <failure message="If the group is lower than min value, the student should NOT be added ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: If the group is lower than min value, the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testGroupMinValueMinus1(StudentTest.java:85)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+
+]]></system-out>
+  </testcase>
+  <testcase name="testNameEmpty" classname="StudentTest" time="0.028">
+    <failure message="If the name is empty the student should NOT be added ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: If the name is empty the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testNameEmpty(StudentTest.java:79)
+]]></failure>
+    <system-out><![CDATA[Entitatea nu este valida! 
+
+]]></system-out>
+  </testcase>
+</testsuite>

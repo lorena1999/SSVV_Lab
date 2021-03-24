@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: StudentTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.709 s <<< FAILURE! - in StudentTest
+testGroupMaxValuePlus1  Time elapsed: 0.081 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: If the group is higher than max value, the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testGroupMaxValuePlus1(StudentTest.java:115)
+
+testIdEmpty  Time elapsed: 0.029 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: If the id is empty the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testIdEmpty(StudentTest.java:67)
+
+testGroupMinValueMinus1  Time elapsed: 0.029 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: If the group is lower than min value, the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testGroupMinValueMinus1(StudentTest.java:85)
+
+testNameEmpty  Time elapsed: 0.028 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: If the name is empty the student should NOT be added ==> expected: <0> but was: <1>
+	at StudentTest.testNameEmpty(StudentTest.java:79)
+
