@@ -24,7 +24,6 @@ public class StudentTest {
 
     private Service service;
 
-
     @BeforeEach
     public void setUp() throws Exception {
         Path source = Paths.get("studenti.xml");
